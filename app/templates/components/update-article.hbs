@@ -1,0 +1,36 @@
+{{yield}}
+{{#if updateArticleForm}}
+  <h4>Update {{article.author}}'s article on {{article.title}}</h4>
+  <div>
+    <form>
+      <div class="input-lg">
+        <label for="title">title</label>
+        {{input value=title id="title" placeholder=article.title}}
+      </div>
+
+      <div class="input-lg">
+        <label for="author">author</label>
+        {{input value=author id="author" placeholder=article.author}}
+      </div>
+
+      <div class="input-lg">
+        <label for="category">category</label>
+        {{input value=category id="category" placeholder=article.category}}
+      </div>
+
+      <div class="input-lg">
+        <label for="image">image</label>
+        {{input value=image id="image" placeholder=article.image}}
+      </div>
+
+      <div class="input-lg">
+        <label for="content">content</label>
+        {{textarea value=content id="content" placeholder=article.content}}
+      </div>
+      <br>
+        <button {{action 'update' article}}>Save</button>
+      </form>
+    </div>
+{{else}}
+    <button {{action 'updateArticleForm'}}>Update</button>
+{{/if}}

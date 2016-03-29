@@ -1,0 +1,4 @@
+{{yield}}
+<div><p>{{article.title}}</p> <img src="{{article.image}}" alt="{{article.title}}"/></div>
+{{update-article article=article update="update"}}
+<button class="btn btn-danger btn-xs" {{action 'delete' article}}>Delete</button>

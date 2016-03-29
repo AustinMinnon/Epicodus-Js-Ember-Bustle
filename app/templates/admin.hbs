@@ -1,1 +1,7 @@
 <h3> With great power comes great responsibility... </h3>
+{{new-article save="save"}}
+<ul>
+  {{#each model as |article|}}
+     {{admin-list article=article update="update" destroyArticle="destroyArticle"}}
+  {{/each}}
+</ul>
