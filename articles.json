@@ -1,0 +1,20 @@
+{ "articles": [{
+    "title": "Breaking news article",
+    "category": "News",
+    "author": "Estelle Randy",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "content": "lorem ipsum"
+  }, {
+    "title": "Entertainment article",
+    "category": "News",
+    "author": "Estelle Randy",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "content": "lorem ipsum"
+  }, {
+    "title": "Sports article",
+    "category": "News",
+    "author": "Estelle Randy",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "content": "lorem ipsum"
+  }]
+}
