@@ -33,7 +33,7 @@ You will need the following things properly installed on your computer.
 _Javascript, Ember, EmberFire, Node, Bower, Bootstrap_
 
 ##GitHub Pages
-http://austinminnon.github.io/Epicodus-Js-Ember-Q-A
+http://austinminnon.github.io/Epicodus-Js-Ember-Bustle
 
 
 ### License
