@@ -1,0 +1,6 @@
+{
+  "name": "Bustle Clone",
+  "tagline": "Ember 2.0 Bustle Knock off",
+  "body": "# Bustle Clone\r\n\r\nClone of the popular site \"Bustle\", allowing users to post news.\r\n\r\n### By _**Austin Minnon & Joshua Gustafson**_\r\n\r\n## Prerequisites\r\n\r\nYou will need the following things properly installed on your computer.\r\n\r\n* [Git](http://git-scm.com/)\r\n* [Node.js](http://nodejs.org/) (with NPM)\r\n* [Bower](http://bower.io/)\r\n* [Ember CLI](http://www.ember-cli.com/)\r\n* [PhantomJS](http://phantomjs.org/)\r\n\r\n## Setup & Installation\r\n\r\n* `git clone <repository-url>` this repository\r\n* change into the new directory\r\n* `npm install`\r\n* `bower install`\r\n* `ember i emberfire`\r\n* `ember i ember-bootstrap`\r\n* `ember build`\r\n* `ember s`\r\n* Visit your app at [http://localhost:4200](http://localhost:4200).\r\n\r\n## Bugs\r\n No known bugs\r\n\r\n## Technologies Used\r\n\r\n_Javascript, Ember, EmberFire, Node, Bower, Bootstrap_\r\n\r\n##GitHub Pages\r\nhttp://austinminnon.github.io/Epicodus-Js-Ember-Bustle\r\n\r\n\r\n### License\r\n\r\n_MIT license_\r\n\r\nCopyright (c) 2016 _**Austin Minnon & Joshua Gustafson**_\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
